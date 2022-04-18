@@ -4,3 +4,5 @@ old
 *.code-workspace
 launch.json
 gh-md-toc
+.DS_Store
+.idea
