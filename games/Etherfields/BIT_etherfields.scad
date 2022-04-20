@@ -99,7 +99,7 @@ data =
         ],
         ["Slumber cards",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [200, 108, 107]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -130,9 +130,9 @@ data =
         ],
         ["minis_1",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, true],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [129, 112, 31]],
+                [BOX_SIZE_XYZ, [124, 116, 31]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -150,10 +150,10 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "Lucid Tough"],
+                            [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [59, 49, 29]],
-//                        [CMP_COMPARTMENT_SIZE_XYZ, [47, 59, 29]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [59, 49, 28]],
                         [POSITION_XY, [0, 0]],
                     ],
                 ],
@@ -161,10 +161,10 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "Base Reaper"],
+                            [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [55, 46, 29]],
-//                        [CMP_COMPARTMENT_SIZE_XYZ, [43, 55, 29]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [55, 46, 28]],
                         [POSITION_XY, [0, 51]],
                     ],
                 ],
@@ -172,22 +172,22 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "Lucid Reaper"],
+                            [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [60, 56, 29]],
-//                        [CMP_COMPARTMENT_SIZE_XYZ, [53, 60, 29]],
-                        [POSITION_XY, [67, 0]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [60, 56, 28]],
+                        [POSITION_XY, [61, 0]],
                     ],
                 ],
                 [BOX_COMPONENT,
                     [
                         [LABEL, [
                             [LBL_TEXT, "Lucid Free"],
+                            [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [57, 36, 29]],
-//                        [CMP_COMPARTMENT_SIZE_XYZ, [33, 57, 29]],
-                        [POSITION_XY, [67, 64]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [57, 36, 28]],
+                        [POSITION_XY, [61, 64]],
                     ],
                 ],
             ]
@@ -196,7 +196,7 @@ data =
             [
                 [ENABLED_B, false],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [129, 112, 36]],
+                [BOX_SIZE_XYZ, [124, 116, 36]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -214,120 +214,44 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "Thorn Knight"],
+                            [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [45, 83, 34]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [45, 83, 33]],
                         [POSITION_XY, [0, 0]],
-                    ],
-                ],
-                [BOX_COMPONENT,
-                        [
-                            [LABEL, [
-                                [LBL_TEXT, "Lucid Gambler"],
-                            ]],
-                            [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                            [CMP_COMPARTMENT_SIZE_XYZ, [68, 45, 34]],
-                            [POSITION_XY, [56, 65]],
-                        ]
-                    ],
-                [BOX_COMPONENT,
-                        [
-                            [LABEL, [
-                                [LBL_TEXT, "Lucid Specialist"],
-                            ]],
-                            [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                            [CMP_COMPARTMENT_SIZE_XYZ, [72, 64.5, 34]],
-                            [POSITION_XY, [53, 0]],
-                        ],
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [LABEL, [
-                            [LBL_TEXT, "tokens"],
-                        ]],
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [54, 24, 34]],
-                        [POSITION_XY, [0, 85]],
-                    ],
-                ],
-            ],
-        ],
-        ["minis",
-            [
-                [ENABLED_B, false],
-                [TYPE, BOX],
-                [BOX_SIZE_XYZ, [163, 116, 39]],
-                [BOX_NO_LID_B, true], // set this to false to add lid back in
-                [BOX_LID,
-                    [
-                        [LABEL,
-                            [
-                                [LBL_TEXT, "Minis"],
-                                [LBL_SIZE, AUTO],
-
-                            ],
-                        ],
-                        [LID_SOLID_B, true],
-                    ]
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [LABEL, [
-                            [LBL_TEXT, "Lucid Specialist"],
-                        ]],
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [66, 64, 34]],
-                        [POSITION_XY, [1, 1]],
-                    ],
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [LABEL, [
-                            [LBL_TEXT, "Lucid Reaper"],
-                        ]],
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [66, 46, 34]],
-                        [POSITION_XY, [1, 66]],
                     ],
                 ],
                 [BOX_COMPONENT,
                     [
                         [LABEL, [
                             [LBL_TEXT, "Lucid Gambler"],
+                            [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [45, 56, 34]],
-                        [POSITION_XY, [68, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [59, 41, 33]],
+                        [POSITION_XY, [56, 72]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Lucid Specialist"],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [72, 70, 33]],
+                        [POSITION_XY, [47, 0]],
                     ],
                 ],
                 [BOX_COMPONENT,
                     [
                         [LABEL, [
-                            [LBL_TEXT, "Base Reaper"],
+                            [LBL_TEXT, "tokens"],
+                            [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [45, 53, 34]],
-                        [POSITION_XY, [68, 58]],
-                    ],
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [LABEL, [
-                            [LBL_TEXT, "Lucid Tough"],
-                        ]],
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [45, 56, 34]],
-                        [POSITION_XY, [114, 1]],
-                    ],
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [LABEL, [
-                            [LBL_TEXT, "Lucid Free"],
-                        ]],
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [45, 53, 34]],
-                        [POSITION_XY, [114, 58]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [54, 28, 33]],
+                        [POSITION_XY, [0, 85]],
                     ],
                 ],
             ],
