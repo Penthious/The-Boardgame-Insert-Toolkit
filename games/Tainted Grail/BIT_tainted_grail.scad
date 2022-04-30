@@ -57,7 +57,7 @@ data =
             [
                 [ENABLED_B, false],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [126,12,87 ]],
+                [BOX_SIZE_XYZ, [128,12,87 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -79,7 +79,7 @@ data =
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [123, 9, 84]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [125, 9, 84]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
                         [POSITION_XY, [0, 0]],
@@ -91,7 +91,7 @@ data =
             [
                 [ENABLED_B, false],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [126,48,87 ]],
+                [BOX_SIZE_XYZ, [128,48,87 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -113,7 +113,7 @@ data =
                             [LBL_SIZE, 13]
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [123, 45, 84]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [125, 45, 84]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
                         [POSITION_XY, [0, 0]],
@@ -125,7 +125,7 @@ data =
             [
                 [ENABLED_B, false],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [51,53,74 ]],
+                [BOX_SIZE_XYZ, [52,53,74 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -146,7 +146,7 @@ data =
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [48, 50, 71]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [49, 30, 71]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
                         [POSITION_XY, [0, 0]],
@@ -158,7 +158,7 @@ data =
             [
                 [ENABLED_B, false],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [51,37,74 ]],
+                [BOX_SIZE_XYZ, [52,37,74 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -179,7 +179,7 @@ data =
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [48, 34, 71]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [49, 34, 71]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
                         [POSITION_XY, [0, 0]],
@@ -191,7 +191,7 @@ data =
             [
                 [ENABLED_B, false],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [51,40.5,74 ]],
+                [BOX_SIZE_XYZ, [52,33,74 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -208,55 +208,10 @@ data =
                 [BOX_COMPONENT,
                     [
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [48, 5, 71]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [49, 30, 71]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
                         [POSITION_XY, [0, 0]],
-                    ]
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [48, 5, 71]],
-                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
-                        [CMP_CUTOUT_HEIGHT_PCT, 30],
-                        [POSITION_XY, [0, 6.5]],
-                    ]
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [48, 5, 71]],
-                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
-                        [CMP_CUTOUT_HEIGHT_PCT, 30],
-                        [POSITION_XY, [0, 13]],
-                    ]
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [48, 5, 71]],
-                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
-                        [CMP_CUTOUT_HEIGHT_PCT, 30],
-                        [POSITION_XY, [0, 19.5]],
-                    ]
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [48, 5, 71]],
-                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
-                        [CMP_CUTOUT_HEIGHT_PCT, 30],
-                        [POSITION_XY, [0, 26]],
-                    ]
-                ],
-                [BOX_COMPONENT,
-                    [
-                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [48, 5, 71]],
-                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
-                        [CMP_CUTOUT_HEIGHT_PCT, 30],
-                        [POSITION_XY, [0, 32.5]],
                     ]
                 ],
             ]
@@ -362,7 +317,7 @@ data =
         ],
         ["Special Events / You are dying",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72, 11, 96]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -393,7 +348,7 @@ data =
             [
                 [ENABLED_B, false],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [72, 76, 96]],
+                [BOX_SIZE_XYZ, [72, 82, 96]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -422,7 +377,7 @@ data =
                         [CMP_COMPARTMENT_SIZE_XYZ, [69, 15, 96]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
-                        [POSITION_XY, [0, 16]],
+                        [POSITION_XY, [0, 18]],
                     ]
                 ],
                 [BOX_COMPONENT,
@@ -431,7 +386,7 @@ data =
                         [CMP_COMPARTMENT_SIZE_XYZ, [69, 20, 96]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
-                        [POSITION_XY, [0, 32]],
+                        [POSITION_XY, [0, 36]],
                     ]
                 ],
                 [BOX_COMPONENT,
@@ -440,16 +395,16 @@ data =
                         [CMP_COMPARTMENT_SIZE_XYZ, [69, 20, 96]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
-                        [POSITION_XY, [0, 53]],
+                        [POSITION_XY, [0, 59]],
                     ]
                 ],
             ]
         ],
-        ["Encouter Cards",
+        ["Echos of the last past cards",
             [
                 [ENABLED_B, false],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [72, 20, 96]],
+                [BOX_SIZE_XYZ, [72, 38, 96]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -466,11 +421,171 @@ data =
                 [BOX_COMPONENT,
                     [
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [69, 17, 96]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [69, 35, 96]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_HEIGHT_PCT, 30],
                     ]
                 ]
+            ]
+        ],
+        ["Encouter Cards & 5th player base holder",
+            [
+                [ENABLED_B, false],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [72, 24, 96]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "CARDS"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [69, 21, 96]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_HEIGHT_PCT, 30],
+                    ]
+                ]
+            ]
+        ],
+        ["mini's 1",
+            [
+                [ENABLED_B, false],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [180, 142, 43]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "CARDS"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [60, 114, 48]],
+                        [POSITION_XY, [0, 0]],
+                    ],
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [60, 97, 48]],
+                        [POSITION_XY, [63, 0]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [33, 28, 48]],
+                        [POSITION_XY, [130, 0]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [33, 28, 48]],
+                        [POSITION_XY, [130, 30]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [33, 28, 48]],
+                        [POSITION_XY, [130, 60]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [33, 28, 48]],
+                        [POSITION_XY, [130, 90]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [33, 28, 48]],
+                        [POSITION_XY, [130, 0]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [45, 29, 48]],
+                        [POSITION_XY, [70, 105]],
+                    ]
+                ],
+            ]
+        ],
+          ["mini's 2",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [180, 142, 43]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "CARDS"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [62, 107, 48]],
+                        [POSITION_XY, [0, 0]],
+                    ],
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [62, 30, 48]],
+                        [POSITION_XY, [0, 109]],
+                    ],
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [62, 62, 48]],
+                        [POSITION_XY, [64, 0]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [62, 75, 48]],
+                        [POSITION_XY, [64, 64]],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                     [
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [49, 139, 48]],
+                        [POSITION_XY, [128, 0]],
+                    ]
+                ],
+              
             ]
         ]
     ];
