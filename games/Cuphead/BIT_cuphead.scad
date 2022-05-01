@@ -40,7 +40,7 @@ data =
             [
                 [ENABLED_B, true],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [99,72,73 ]],
+                [BOX_SIZE_XYZ, [79,60,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -57,15 +57,15 @@ data =
                 [BOX_COMPONENT,
                     [
                         [LABEL, [
-                            [LBL_TEXT, "Town Events"],
-                            [LBL_SIZE, 5],
+                            [LBL_TEXT, "Box 1"],
+                            [LBL_SIZE, 15],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [96, 69, 70]],
-                        [CMP_CUTOUT_SIDES_4B, [t, t, t, t]],
-                        [CMP_CUTOUT_WIDTH_PCT, 40],
-                        [CMP_CUTOUT_HEIGHT_PCT, 95],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [76, 57, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
                         [POSITION_XY, [0, 0]],
                     ]
                 ],
