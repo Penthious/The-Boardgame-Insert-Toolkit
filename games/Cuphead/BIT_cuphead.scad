@@ -40,7 +40,7 @@ data =
             [
                 [ENABLED_B, true],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [79,60,103 ]],
+                [BOX_SIZE_XYZ, [80,60,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -62,7 +62,7 @@ data =
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [76, 57, 101]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 57, 101]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_WIDTH_PCT, 50],
                         [CMP_CUTOUT_HEIGHT_PCT, 40],
