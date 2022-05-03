@@ -36,11 +36,11 @@ g_tolerance_detents_pos = 0.1;
 
 data =
     [
-        ["Town Events",
+        ["box1",
             [
                 [ENABLED_B, true],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [80,60,103 ]],
+                [BOX_SIZE_XYZ, [80,53,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_LID,
                     [
@@ -62,7 +62,322 @@ data =
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 50, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["box2",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [80,48,103 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Box 2"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 45, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["box3",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [80,53,103 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Box 3"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 50, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["box4",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [80,60,103 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Box 4"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
                         [CMP_COMPARTMENT_SIZE_XYZ, [77, 57, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["box5",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [80,43,103 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Box 5"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 40, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["box6",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [80,43,103 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Box 6"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 40, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["box7",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [80,111,103 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Box 7"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 10, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["box8",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [80,33,103 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Box 8"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 30, 101]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["wallop",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [72,26,97 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "WALLOP"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [69, 23, 95]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
+        ["Unlocked",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [72,43,97 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Unlocked"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [69, 40, 95]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_WIDTH_PCT, 50],
                         [CMP_CUTOUT_HEIGHT_PCT, 40],
