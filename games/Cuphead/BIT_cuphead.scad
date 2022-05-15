@@ -16,6 +16,8 @@ g_b_visualization = false;
 //Default = 1.5mm
 g_wall_thickness = 1.5;
 
+m_lid_notches= false;
+
 // The tolerance value is extra space put between planes of the lid and box that fit together.
 // Increase the tolerance to loosen the fit and decrease it to tighten it.
 //
@@ -38,7 +40,7 @@ data =
     [
         ["box1",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [80,53,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -73,7 +75,7 @@ data =
         ],
         ["box2",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [80,48,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -108,7 +110,7 @@ data =
         ],
         ["box3",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [80,53,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -143,7 +145,7 @@ data =
         ],
         ["box4",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [80,60,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -178,7 +180,7 @@ data =
         ],
         ["box5",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [80,43,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -213,7 +215,7 @@ data =
         ],
         ["box6",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [80,43,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -248,7 +250,7 @@ data =
         ],
         ["box7",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [80,111,103 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -272,7 +274,7 @@ data =
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 10, 101]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [77, 108, 101]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_WIDTH_PCT, 50],
                         [CMP_CUTOUT_HEIGHT_PCT, 40],
@@ -285,13 +287,13 @@ data =
             [
                 [ENABLED_B, true],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [80,33,103 ]],
-                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_SIZE_XYZ, [82,35,103 ]],
                 [BOX_LID,
                     [
+                        [LID_FIT_UNDER_B, false],
                         [LABEL,
                             [
-                                [LBL_TEXT, "HELP"],
+                                [LBL_TEXT, "Box 8"],
                                 [LBL_SIZE, AUTO],
 
                             ],
@@ -311,14 +313,14 @@ data =
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_WIDTH_PCT, 50],
                         [CMP_CUTOUT_HEIGHT_PCT, 40],
-                        [POSITION_XY, [0, 0]],
+                        [POSITION_XY, [1, 1]],
                     ]
                 ],
             ]
         ],
         ["wallop",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,26,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -338,7 +340,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "WALLOP"],
-                            [LBL_SIZE, 15],
+                            [LBL_SIZE, AUTO],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -353,7 +355,7 @@ data =
         ],
         ["Unlocked",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,43,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -373,7 +375,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "Unlocked"],
-                            [LBL_SIZE, 15],
+                            [LBL_SIZE, AUTO],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -386,6 +388,45 @@ data =
                 ],
             ]
         ],
+        [   "Player",
+            [
+                [ BOX_SIZE_XYZ,             [58.0, 43.0, 43.0] ],
+                [ ENABLED_B,                false],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [ BOX_LID,
+                    [
+                        [LID_SOLID_LABELS_DEPTH, 1],
+                        [ LID_NOTCHES_B, f ],
+                        [LID_LABELS_BG_THICKNESS, 5],
+                        [ LID_FIT_UNDER_B,      f],
+                        [ LID_SOLID_B, f],
+                        [ LID_HEIGHT, 5 ],
+                        [LID_TABS_4B, t,t,t,t],
+                        [ LABEL,
+                            [
+                                [ LBL_TEXT,     "red"],
+                                [ LBL_SIZE,     AUTO ],
+                            ]
+                        ],
+                    ]
+                ],
+                [   BOX_COMPONENT,
+                    [
+                        // [LABEL, [
+                        //     [LBL_TEXT, "RED"],
+                        //     [LBL_SIZE, AUTO],
+                        //     [LBL_DEPTH, 1],
+                        // ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_CUTOUT_SIDES_4B, [f, f, f, f]],
+                        [POSITION_XY, [0, 0]],
+                        [CMP_COMPARTMENT_SIZE_XYZ,              [ 55, 40.0, 40.0] ],
+                        [CMP_PADDING_HEIGHT_ADJUST_XY,          [-5, 0] ],
+                        [CMP_CUTOUT_SIDES_4B,                   [f,f,f,f]],
+                    ]
+                ]
+            ],
+        ]
     ];
 
 MakeAll();
