@@ -86,9 +86,9 @@ data =
         ],
         ["fables",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
-                [BOX_SIZE_XYZ, [72,58,97 ]],
+                [BOX_SIZE_XYZ, [72,43,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_COMPONENT,
                     [
@@ -98,7 +98,7 @@ data =
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
-                        [CMP_COMPARTMENT_SIZE_XYZ, [69, 45, 95]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [69, 40, 95]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
                         [CMP_CUTOUT_WIDTH_PCT, 50],
                         [CMP_CUTOUT_HEIGHT_PCT, 40],
@@ -109,7 +109,7 @@ data =
     ],
         ["starting",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,38,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -132,7 +132,7 @@ data =
         ],
         ["Purple Encounters",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,53,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -155,7 +155,7 @@ data =
         ],
         ["Orange Encounters",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,53,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -178,7 +178,7 @@ data =
         ],
         ["R cards",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,33,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -186,7 +186,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "R"],
-                            [LBL_SIZE, AUTO],
+                            [LBL_SIZE, 20],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -201,7 +201,7 @@ data =
         ],
         ["P cards",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,18,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -209,7 +209,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "P"],
-                            [LBL_SIZE, AUTO],
+                            [LBL_SIZE, 10],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -222,9 +222,9 @@ data =
                 ],
             ]
         ],
-        ["F Purple",
+        ["F Purple Encounters",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,23,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -232,7 +232,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "FP"],
-                            [LBL_SIZE, AUTO],
+                            [LBL_SIZE, 15],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -245,9 +245,9 @@ data =
                 ],
             ]
         ],
-        ["F Orange",
+        ["F Orange Encouters",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,43,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -255,7 +255,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "FO"],
-                            [LBL_SIZE, AUTO],
+                            [LBL_SIZE, 15],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -270,15 +270,15 @@ data =
         ],
         ["F Green",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [72,33,97 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_COMPONENT,
                     [
                         [LABEL, [
-                            [LBL_TEXT, "Fg"],
-                            [LBL_SIZE, AUTO],
+                            [LBL_TEXT, "FG"],
+                            [LBL_SIZE, 15],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -293,7 +293,7 @@ data =
         ],
         ["Ability",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [46,53,65 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -301,7 +301,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "A"],
-                            [LBL_SIZE, AUTO],
+                            [LBL_SIZE, 25],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -316,7 +316,7 @@ data =
         ],
         ["Narative",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [46,33,65 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -324,7 +324,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "N"],
-                            [LBL_SIZE, AUTO],
+                            [LBL_SIZE, 15],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
@@ -339,17 +339,12 @@ data =
         ],
         ["Wound",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [46,9,65 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_COMPONENT,
                     [
-                        [LABEL, [
-                            [LBL_TEXT, "W"],
-                            [LBL_SIZE, AUTO],
-                            [LBL_DEPTH, 1],
-                        ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
                         [CMP_COMPARTMENT_SIZE_XYZ, [43, 6, 63]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
@@ -362,17 +357,12 @@ data =
         ],
         ["Sage",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [46,9,65 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_COMPONENT,
                     [
-                        [LABEL, [
-                            [LBL_TEXT, "S"],
-                            [LBL_SIZE, AUTO],
-                            [LBL_DEPTH, 1],
-                        ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
                         [CMP_COMPARTMENT_SIZE_XYZ, [43, 6, 63]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
@@ -385,17 +375,12 @@ data =
         ],
         ["Behavior",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [46,9,65 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_COMPONENT,
                     [
-                        [LABEL, [
-                            [LBL_TEXT, "B"],
-                            [LBL_SIZE, AUTO],
-                            [LBL_DEPTH, 1],
-                        ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
                         [CMP_COMPARTMENT_SIZE_XYZ, [43, 6, 63]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
@@ -408,17 +393,12 @@ data =
         ],
         ["Equipment",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [46,13,65 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
                 [BOX_COMPONENT,
                     [
-                        [LABEL, [
-                            [LBL_TEXT, "E"],
-                            [LBL_SIZE, AUTO],
-                            [LBL_DEPTH, 1],
-                        ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
                         [CMP_COMPARTMENT_SIZE_XYZ, [43, 10, 63]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
@@ -429,9 +409,32 @@ data =
                 ],
             ]
         ],
+        ["Items",
+            [
+                [ENABLED_B, t],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [46,28,65 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "I"],
+                            [LBL_SIZE, 15],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [43, 25, 63]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, f, f]],
+                        [CMP_CUTOUT_WIDTH_PCT, 50],
+                        [CMP_CUTOUT_HEIGHT_PCT, 40],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ]
+        ],
         ["Starting Small",
             [
-                [ENABLED_B, false],
+                [ENABLED_B, f],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [46,31,65 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -439,7 +442,7 @@ data =
                     [
                         [LABEL, [
                             [LBL_TEXT, "SS"],
-                            [LBL_SIZE, AUTO],
+                            [LBL_SIZE, 15],
                             [LBL_DEPTH, 1],
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],

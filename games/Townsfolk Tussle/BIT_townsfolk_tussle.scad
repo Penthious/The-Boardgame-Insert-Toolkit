@@ -38,7 +38,7 @@ data =
     [
         ["Town Events",
             [
-                [ENABLED_B, true],
+                [ENABLED_B, false],
                 [TYPE, BOX],
                 [BOX_SIZE_XYZ, [99,72,73 ]],
                 [BOX_NO_LID_B, true], // set this to false to add lid back in
@@ -63,6 +63,41 @@ data =
                         ]],
                         [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
                         [CMP_COMPARTMENT_SIZE_XYZ, [96, 69, 70]],
+                        [CMP_CUTOUT_SIDES_4B, [t, t, t, t]],
+                        [CMP_CUTOUT_WIDTH_PCT, 40],
+                        [CMP_CUTOUT_HEIGHT_PCT, 95],
+                        [POSITION_XY, [0, 0]],
+                    ]
+                ],
+            ],
+        ],
+        ["Items",
+            [
+                [ENABLED_B, true],
+                [TYPE, BOX],
+                [BOX_SIZE_XYZ, [70,70,80 ]],
+                [BOX_NO_LID_B, true], // set this to false to add lid back in
+                [BOX_LID,
+                    [
+                        [LABEL,
+                            [
+                                [LBL_TEXT, "HELP"],
+                                [LBL_SIZE, AUTO],
+
+                            ],
+                        ],
+                        [LID_SOLID_B, true],
+                    ]
+                ],
+                [BOX_COMPONENT,
+                    [
+                        [LABEL, [
+                            [LBL_TEXT, "Items"],
+                            [LBL_SIZE, 5],
+                            [LBL_DEPTH, 1],
+                        ]],
+                        [CMP_NUM_COMPARTMENTS_XY, [1, 1]],
+                        [CMP_COMPARTMENT_SIZE_XYZ, [67, 67, 77]],
                         [CMP_CUTOUT_SIDES_4B, [t, t, t, t]],
                         [CMP_CUTOUT_WIDTH_PCT, 40],
                         [CMP_CUTOUT_HEIGHT_PCT, 95],
